@@ -19,6 +19,15 @@ Then reference this as-path-list in a route-map - just be sure the deny rule exe
   set policy route-map MY-ROUTE-MAP rule 1 match as-path ASPATH-RRGFY
   commit;save;exit</pre>
 
+Finally, apply the route-map on the import side of a BGP neighbor:
+
+  <pre>  eng@rvyos# show protocols bgp 65012 neighbor 192.0.2.245 
+ address-family {
+     ipv4-unicast {
+         route-map {
+             import MY-ROUTE-MAP
+         }</pre>
+
 Tested on VyOS 1.3.0 with rancid 3.13 - your mileage may vary, and I'm not responsible if you blow up your BGP routing table.
 
 # Cлава Україні!
