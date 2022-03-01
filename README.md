@@ -6,7 +6,7 @@ Do you run VyOS and support core team members in Ukraine? Perhaps you find <a hr
 
 Here's something you can do. You can exclude most of Russia from your network. Maybe it's not significant.  Maybe you run a really big network.  Either way - your network, your rules.
 
-Either download ASPATH-RRGFY.txt and shove it onto your router or download make-the-list.sh and create your own commands.txt
+Either download <b>commands.txt</b> and shove it onto your router or download <b>make-the-list.sh</b> and create your own commands.txt
 
 I suggest deploying it with rancid as it is much too long to paste.  It still takes a very long time for vlogin to complete the deployment of the as-path-list -- roughly 45 to 50 minutes. If anybody wants to make this better/faster please feel free.
 
