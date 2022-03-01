@@ -8,7 +8,7 @@ Here's something you can do. You can exclude most of Russia from your network. M
 
 Either download <b><u>ASPATH-RRGFY.txt</u></b> and shove it onto your router or download <b><u>make-the-list.sh</u></b> and create your own commands.txt
 
-I suggest deploying it with rancid as it is much too long to paste.  It still takes a very long time for vlogin to complete the deployment of the as-path-list -- roughly 45 to 50 minutes. If anybody wants to make this better/faster please feel free.
+I suggest deploying it with rancid as it is much too long to paste.  It still takes a very long time (over an hour!) for vlogin to complete the deployment of the as-path-list. If anybody wants to make this better/faster please feel free.
 
 <pre>vlogin -x ASPATH-RRGFY.txt <your-router-name></pre>
   
