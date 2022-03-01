@@ -21,7 +21,7 @@ Then reference this as-path-list in a route-map - just be sure the deny rule exe
 
 Finally, apply the route-map on the import side of a BGP neighbor:
 
-  <pre>  eng@rvyos# show protocols bgp 65012 neighbor 192.0.2.245 
+<pre>eng@rvyos# show protocols bgp 65012 neighbor 192.0.2.245 
  address-family {
      ipv4-unicast {
          route-map {
